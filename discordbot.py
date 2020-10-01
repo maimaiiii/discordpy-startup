@@ -10,15 +10,15 @@ async def ping(ctx):
     await ctx.send('pong')
 
 @bot.command()
-async def ゴリラ(ctx):
+async def 'ゴリラ'(ctx):
     await ctx.send('ゴリラじゃねぇ！ゴリラ人間です。')
     
 @bot.command()
-async def 休憩(ctx):
+async def '休憩'(ctx):
     await ctx.send('お疲れ様！')
 
 @bot.command()
-async def ウホ(ctx):
+async def 'ウホ'(ctx):
     await ctx.send('はぁはぁはぁ')
     
 bot.run(token)
