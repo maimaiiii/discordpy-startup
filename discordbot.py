@@ -2,9 +2,13 @@ from discord.ext import commands
 import os
 import traceback
 
-bot = commands.Bot(command_prefix='/')
+bot = commands.Bot(command_prefix='@gori-timer')
 token = os.environ['DISCORD_BOT_TOKEN']
 
+
+@bot.event
+async def on_ready():
+    print('ログイン成功')
 
 @bot.event
 async def on_command_error(ctx, error):
