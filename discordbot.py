@@ -2,7 +2,7 @@ from discord.ext import commands
 import os
 import traceback
 
-bot = commands.Bot(command_prefix='/')
+bot = commands.Bot(command_prefix='@gori-timer-v2 ')
 token = os.environ['DISCORD_BOT_TOKEN']
 
 @bot.event
