@@ -21,4 +21,8 @@ async def '休憩'(ctx):
 async def 'ウホ'(ctx):
     await ctx.send('はぁはぁはぁ')
     
+@bot.command()
+async def 'おはよう'(ctx):
+    await ctx.send('ウホホホホ')
+    
 bot.run(token)
