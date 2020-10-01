@@ -5,11 +5,6 @@ import traceback
 bot = commands.Bot(command_prefix='')
 token = os.environ['DISCORD_BOT_TOKEN']
 
-@client.event
-async def on_message(message):
-    await client.wait_until_ready()
-    ch = client.get_channel()
-
 @bot.command()
 async def ping(ctx):
     await ctx.send('pong')
