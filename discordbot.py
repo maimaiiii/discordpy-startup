@@ -25,4 +25,8 @@ async def 'ウホ'(ctx):
 async def 'おはよう'(ctx):
     await ctx.send('ウホホホホ')
     
+@bot.command()
+async def '売れました'(ctx):
+    await ctx.send('うひょーーーー！')
+    
 bot.run(token)
