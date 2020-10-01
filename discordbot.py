@@ -15,7 +15,7 @@ async def 'ゴリラ'(ctx):
     
 @bot.command()
 async def '休憩'(ctx):
-    await ctx.send('お疲れ様！:cake:')
+    await ctx.send('お疲れ様！')
 
 @bot.command()
 async def 'ウホ'(ctx):
